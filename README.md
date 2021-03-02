@@ -1,5 +1,7 @@
 # Jiah Pemalas
 
+A fast way to create custom folder and file on Windows system.
+
 ## Requirement
 Works only on Windows
 Tested on Windows 10 
