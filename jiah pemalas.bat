@@ -10,7 +10,7 @@ setlocal EnableDelayedExpansion
 
 if not exist "%NamaFolder%\" (
   md "%NamaFolder%\"
-  copy NUL "%NamaFolder%/185150701111012_Junanda Ilham P_%NamaFile%.docx"
+  copy NUL "%NamaFolder%/%NamaFile%.docx"
   if "!errorlevel!" EQU "0" (
     echo Alhamdulillah berhasil ngab 
   ) else (
